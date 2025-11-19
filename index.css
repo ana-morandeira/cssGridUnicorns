@@ -1,7 +1,12 @@
-#titleAndImage{
-    display: grid;
-    grid template columns: 50% 50%;
-    img{grid-template-columns: 50%;}}
-    
-#title{font-size: 50px;text-align: center;grid-template-columns: 50%;} 
+#titleAndImages{display:grid;
+    max-width: 1000px; 
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 20px; 
+}
+
+#title{
+    grid-template-columns: 500px;
+    grid-template-rows: 250px;
+}
 
