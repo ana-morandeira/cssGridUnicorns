@@ -1,18 +1,20 @@
-#titleAndImages{display:grid;
+.titleAndImages{display:grid;
     max-width: 1000px; 
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-template-rows: 250px 250px 250px 250px;
     grid-gap: 20px; 
 }
 
-#title{display: grid
-    grid-template-columns: 500px;
-    grid-template-rows: 250px;
+#title {
+    grid-column: 1/ span 4;
+    grid-row: 1;
     font-size: 80px;
+    align-items: center;
 }
 
-#unicorn-img-1{display: grid
-    grid-template-columns: 500px;
-    grid-template-rows: 250 px;
+
+#unicorn-img-1{
+    grid-column: 6/span 4;
+    grid-row: 1;
 }
 
