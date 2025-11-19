@@ -5,8 +5,14 @@
     grid-gap: 20px; 
 }
 
-#title{
+#title{display: grid
     grid-template-columns: 500px;
     grid-template-rows: 250px;
+    font-size: 80px;
+}
+
+#unicorn-img-1{display: grid
+    grid-template-columns: 500px;
+    grid-template-rows: 250 px;
 }
 
