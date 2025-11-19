@@ -1,5 +1,2 @@
-#unicornsTable{ display: grid;
-     grid-template-columns: 100px 5em 40%;gap: 10px; }
-
-#title{font-size: 100px; grid-column: span 2.5; border: 3px;}     
+     
 
